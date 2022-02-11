@@ -1,0 +1,64 @@
+body{
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+
+.main-container{
+    min-height: 100vh;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* color : white; */
+}
+
+.timer{
+    font-weight: 500;
+    font-size : 168px;
+    line-height: 168px;
+}
+
+.timer-content{
+    font-weight: bold;
+    font-size : 40px;
+    text-align : center;
+
+}
+
+.memo-wrapper{
+    font-size :24px;
+    font-weight: bold;
+    display : flex;
+    flex-direction : column;
+    text-align : center;
+}
+
+.momo{
+    font-size : 30px;
+
+}
+.modal-button{
+    position : fixed;
+    right: 40px;
+    top : 40px;
+    width: 100px;
+    height: 100px;
+    
+    
+}
+.modal-button img{
+    background-size: cover;
+    position : fixed;
+    right: 40px;
+    top : 40px;
+    width: 100px;
+    height: 100px;
+
+}
+
+
+
+
+
+
+
