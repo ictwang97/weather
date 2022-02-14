@@ -100,13 +100,13 @@ function weatherWrapperCompnent(e) {
 }
 
 function matchIcon(wheatherData) {
-    if (wheatherData === "Clear") return "/images/039-sun.png"
-    if (wheatherData === "Clouds") return "/images/001-cloud.png"
-    if (wheatherData === "Rain") return "/images/003-rainy.png"
-    if (wheatherData === "Snow") return "/images/006-snowy.png"
-    if (wheatherData === "Thunderstorm") return "/images/008-storm.png"
-    if (wheatherData === "Drizzle") return "/images/031-snowflake.png"
-    if (wheatherData === "Atomsphere") return "/images/033-hurricane.png"
+    if (wheatherData === "Clear") return "./images/039-sun.png"
+    if (wheatherData === "Clouds") return "./images/001-cloud.png"
+    if (wheatherData === "Rain") return "./images/003-rainy.png"
+    if (wheatherData === "Snow") return "./images/006-snowy.png"
+    if (wheatherData === "Thunderstorm") return "./images/008-storm.png"
+    if (wheatherData === "Drizzle") return "./images/031-snowflake.png"
+    if (wheatherData === "Atomsphere") return "./images/033-hurricane.png"
 }
 function setContent() {
     const content = document.querySelector(".timer-content")
